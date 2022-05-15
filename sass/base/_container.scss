@@ -4,12 +4,12 @@
     margin-right: auto;
 }
 
-/* // 350px +
-@media screen and (min-width: 350px) {
+// 350px +
+@media screen and (max-width: 767px) {
     .container {
             width: 350px;
         }
-} */
+}
 // 768px +
 @media screen and (min-width: 768px) {
     .container {
