@@ -48,7 +48,7 @@
     text-decoration-line: underline;
     color: var(--link-color);
 }
-.about__list_li1 {
+/* .about__list_li1 {
     margin-bottom: 40px;
 }
 .about__list_li2 {
@@ -56,13 +56,23 @@
 }
 .about__list_li3 {
     margin-bottom: 60px;
-}
-.about__achivements_svg {
+} */
+/* .about__achivements_svg {
     margin-right: 9px;
+} */
+.about__list-li::before {
+    content: url('./img/icons.svg#icon-check');
+    width: 17px;
+    height: 14px;
 }
 .about__list {
     margin-bottom: 20px;
+    margin-right: 9px;
+
 }
+.about__list {
+}
+
 .about__achivements_svg-line {
     margin-bottom: 8px;
 }
